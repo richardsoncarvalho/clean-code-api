@@ -1,5 +1,5 @@
 import { SignUpController } from './signup'
-import { MissingParamsError } from '../errors/MissingParamsError'
+import { MissingParamsError } from '../errors/MissingParamError'
 
 describe('SignUp Controller', () => {
   test('Should return if no name is provider', () => {
